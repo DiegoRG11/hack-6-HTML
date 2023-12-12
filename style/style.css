@@ -1,1 +1,472 @@
+.cabezera {
+    width: 100%;
+    height: 150px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image: url(/img/2.png);
+    background-position: center center;
+    z-index: -1;
+}
 
+.btn-negro {
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 13px;
+    left: 20px;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.Enjoy {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    left: 30px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.Discount {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 60px;
+    left: 30px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.Top {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 80px;
+    left: 30px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.parrafo-header {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 110px;
+    left: 30px;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.Discount-number {
+    background: #00BF63;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    top: 20px;
+    left: 220px;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+}
+
+.numero {
+    position: absolute;
+    top: 20px;
+}
+
+.off {
+    position: absolute;
+    top: 45px;
+    font-size: 15px;
+}
+
+.imagenes-medio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    margin-top: 60px;
+}
+
+.imagen1 {
+    background-image: url(/img/1.png);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    width: 250px;
+    position: relative;
+}
+
+.titulo-img1 {
+    position: absolute;
+    top: 350px;
+    font-family: 'Inter', sans-serif;
+}
+
+.precio1 {
+    position: absolute;
+    top: 372px;   
+    text-decoration: line-through red;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.descuento1 {
+    position: absolute;
+    top: 370px;   
+    left: 65px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.imagen2 {
+    background-image: url(/img/3.png);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    width: 250px;
+    position: relative;
+}
+
+.titulo-img2 {
+    position: absolute;
+    top: 350px;
+    font-family: 'Inter', sans-serif;
+}
+
+.precio2 {
+    position: absolute;
+    top: 370px;   
+    text-decoration: line-through red;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.descuento2 {
+    position: absolute;
+    top: 370px;   
+    left: 65px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.imagen3 {
+    background-image: url(/img/4.png);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    width: 250px;
+    position: relative;
+}
+
+.titulo-img3 {
+    position: absolute;
+    top: 350px;
+    font-family: 'Inter', sans-serif;
+}
+
+.precio3 {
+    position: absolute;
+    top: 370px;   
+    text-decoration: line-through red;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.descuento3 {
+    position: absolute;
+    top: 370px;   
+    left: 65px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.imagen4 {
+    background-image: url(/img/5.png);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    width: 250px;
+    position: relative;
+}
+
+.titulo-img4 {
+    position: absolute;
+    top: 350px;
+    font-family: 'Inter', sans-serif;
+}
+
+.precio4 {
+    position: absolute;
+    top: 370px;   
+    text-decoration: line-through red;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.descuento4 {
+    position: absolute;
+    top: 370px;   
+    left: 65px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.imagen5 {
+    background-image: url(/img/6.png);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    width: 250px;
+    position: relative;
+}
+
+.titulo-img5 {
+    position: absolute;
+    top: 350px;
+    font-family: 'Inter', sans-serif;
+}
+
+.precio5 {
+    position: absolute;
+    top: 370px;   
+    text-decoration: line-through red;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.descuento5 {
+    position: absolute;
+    top: 370px;   
+    left: 65px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.imagen6 {
+    background-image: url(/img/16.png);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    width: 250px;
+    position: relative;
+}
+
+.titulo-img6 {
+    position: absolute;
+    top: 350px;
+    font-family: 'Inter', sans-serif;
+}
+
+.precio6 {
+    position: absolute;
+    top: 370px;   
+    text-decoration: line-through red;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.descuento6 {
+    position: absolute;
+    top: 370px;   
+    left: 65px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.linea-ngr {
+    position: relative;
+    background: black;
+    width: 310px;
+    height: 80px;
+    margin-top: 70px;
+    margin-left: 5px;
+}
+
+.btn-compra {
+    background-color: #00BF63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* toca sufiri un poquito con el responsive */
+
+@media (min-width: 768px) {
+ 
+    .cabezera {
+        height: 250px;
+    }
+
+    .btn-negro {
+        width: 120px;
+        height: 30px;
+        top: 25px;
+        left: 100px;
+        font-size: 16px;
+    }
+
+    .Enjoy {
+        top: 70px;
+        left: 105px;
+        font-size: 30px;
+    }
+
+    .Discount {
+        top: 100px;
+        left: 105px;
+        font-size: 30px;
+    }
+
+    .Top {
+        top: 130px;
+        left: 105px;
+        font-size: 30px;
+    }
+
+    .parrafo-header {
+        width: 270px;
+        top: 180px;
+        left: 105px;
+        font-size: 12px;
+    }
+
+    .Discount-number {
+        top: 30px;
+        left: 500px;
+        width: 140px;
+        height: 140px;
+    }
+
+    .numero {
+        font-size: 40px;
+        top: 35px;
+        left: 30px;
+    }
+
+    .off {
+        font-size: 25px;
+        top: 80px;
+    }
+
+    .imagenes-medio {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .linea-ngr {
+        width: 142vh;
+        margin-top: 70px;
+        margin-left: 6px;
+    }
+
+    .btn-compra {
+        left: 100px;
+    }
+
+}
+
+/* ahora toca desktop :D  */
+
+@media (min-width: 1080px) {
+    
+    .cabezera {
+        height: 320px;
+    }
+
+    .btn-negro{
+        width: 135px;
+        height: 30px;
+        top: 30px;
+        left: 230px;
+        font-size: 20px;
+    }
+
+    .Enjoy {
+        top: 75px;
+        left: 240px;
+        font-size: 45px;
+    }
+
+    .Discount {
+        top: 120px;
+        left: 240px;
+        font-size: 45px;
+    }
+
+    .Top {
+        top: 165px;
+        left: 240px;
+        font-size: 45px;
+    }
+
+    .parrafo-header {
+        width: 380px;
+        top: 235px;
+        left: 240px;
+        font-size: 18px;
+    }
+
+    .Discount-number {
+        width: 190px;
+        height: 190px;
+        top: 40px;
+        left: 850px;
+    }
+
+    .numero {
+        top: 60px;
+        left: 45px;
+        font-size: 50px;
+    }
+
+    .off {
+        top: 110px;
+        left: 70px;
+        font-size: 30px;
+    }
+
+
+    .imagenes-medio {
+        gap: 8em;
+        flex-wrap: wrap;
+    }
+
+    .linea-ngr {
+        width: 216vh;
+        height: 120px;
+        margin-top: 80px;
+    }
+
+    .btn-compra {
+        width: 170px;
+        height: 40px;
+        top: 45px;
+        left: 180px;
+        font-size: 20px;
+    }
+
+}
